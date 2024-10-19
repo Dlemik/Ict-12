@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #2e2e2e;
+}
+
+
+.tags {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tags button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tags button:hover {
+    background-color: #ececec;
+}
+
+
+.collections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.collection {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.main-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.people {
+    background-image: url('https://i.pinimg.com/736x/65/42/57/654257ac54d28bdda57d15633a65d89b.jpg');
+}
+
+.nature {
+    background-image: url('https://i.pinimg.com/enabled_lo/564x/f8/04/13/f8041363c2099aea5dddf19688b0cf50.jpg');
+}
+
+.history {
+    background-image: url('https://i.pinimg.com/736x/f4/03/23/f4032366c4ca3db22513be17e5220951.jpg');
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.people-thumb1 {
+    background-image: url('https://i.pinimg.com/enabled_lo/564x/b4/58/4e/b4584e0f24346dad5c23d7b4d8c4dcca.jpg');
+}
+
+.people-thumb2 {
+    background-image: url('https://i.pinimg.com/736x/e5/0d/64/e50d6478522cbacc73740df8a49dcad5.jpg');
+}
+
+.people-thumb3 {
+    background-image: url('https://i.pinimg.com/736x/82/9d/e4/829de49d612fdb04903dda78ee42b119.jpg');
+}
+
+.nature-thumb1 {
+    background-image: url('https://i.pinimg.com/736x/7d/90/4e/7d904e75715416881b6fd5bbb7552945.jpg');
+}
+
+.nature-thumb2 {
+    background-image: url('https://i.pinimg.com/736x/d9/7d/51/d97d5182a6874305547597993fdd06c0.jpg');
+}
+
+.nature-thumb3 {
+    background-image: url('https://i.pinimg.com/enabled_lo/564x/6b/24/c3/6b24c388aa673491eeeb1e3a5533cb8b.jpg');
+}
+
+.history-thumb1 {
+    background-image: url('https://i.pinimg.com/enabled_lo/564x/21/16/31/21163154528c994f90883671397165cb.jpg');
+}
+
+.history-thumb2 {
+    background-image: url('https://i.pinimg.com/enabled_lo/564x/1d/8d/f3/1d8df36ec04babb61ac79a819676c606.jpg');
+}
+
+.history-thumb3 {
+    background-image: url('https://i.pinimg.com/736x/38/82/f9/3882f954661d5765f13bf1a8f23ccb18.jpg');
+}
+
+
+.count {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 20px;    
+    height: auto;  
+    margin-right: 5px; 
+    vertical-align: middle;  /* иконканы центрге кою */
+}
+
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
